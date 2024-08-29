@@ -1,4 +1,4 @@
-def send_email(message, recipient = "gafur-5@mail.ru", sender = "university.help@gmail.com"):
+def send_email(message, recipient = "gafur-5@mail.ru", *, sender = "university.help@gmail.com"):
     # for recipient
     l_r = len(recipient)
     n_r = recipient[-1: l_r-5:-1]
